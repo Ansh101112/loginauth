@@ -12,6 +12,9 @@ const firebaseConfig = {
   appId: "1:121347134814:web:9ec8c7206c727141a2abcf",
 };
 
+//Add your api keys and storage by following instructions from Readme.md
+
+
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth();
 export const storage = getStorage(app);
